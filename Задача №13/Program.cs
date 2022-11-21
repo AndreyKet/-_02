@@ -2,9 +2,9 @@
 string number = Console.ReadLine();
 int a = int.Parse(number);
 
-if (a >= 100)
+if (a >= 100 && a <= -100)
 {
-    while (a > 999)
+    while (a > 1000 && a < -1000)
     {
         a = a / 10;
     }
